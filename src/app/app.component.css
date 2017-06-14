@@ -1,0 +1,15 @@
+/* Sekcja dodaj komentarz */
+.name
+{
+    display: flex;
+}
+.comment textarea
+{
+    width: 100%;
+    height: 150px;
+}
+.btn
+{
+    display: flex;
+    justify-content: flex-end;
+}

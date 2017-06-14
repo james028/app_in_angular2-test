@@ -1,0 +1,17 @@
+<div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="comment-how">Komentarze (0) </p>
+                <div class="comment-text">
+                    <p class="comment-text-user">{{ ii.nick | uppercase }}</p>
+                    <p class="comment-text-2">{{ ii.text }}</p>
+                </div>
+                <div class="comment-vote">
+                    <div class="comment-vote">Ocena: {{ii.votes}}</div>
+                    <button class="votePlus" (click)="Plus()" >+</button>
+                    <button class="voteMinus" (click)="Minus()" >-</button>
+                    <button class="remove" (click)="deleteItem(val)" >Usuń</button>
+                </div>
+            </div>
+        </div>
+    </div>

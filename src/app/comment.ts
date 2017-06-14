@@ -7,7 +7,7 @@ export class Comment {
  constructor (nick: string, text: string, votes?: number) {
     this.nick = nick;
     this.text = text;
-    this.votes = votes || 5;
+    this.votes = votes || 0;
   }
 
 

@@ -28,7 +28,7 @@ export class AppComponent implements OnInit{
   Comm: FormGroup;
 
   nick: FormControl = new FormControl('', Validators.required);
-  text: FormControl = new FormControl();
+  text: FormControl = new FormControl('', Validators.required);
 
 
   constructor(private _CommentService: CommentService, fb: FormBuilder) {

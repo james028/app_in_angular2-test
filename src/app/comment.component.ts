@@ -31,6 +31,7 @@ export class CommentComponent implements OnInit {
  //}
 
 
+
     deleteItem(message:string) {
         this.dataService.deleteMsg(message);
     }
@@ -42,6 +43,7 @@ export class CommentComponent implements OnInit {
 
 
   ngOnInit() {
+
   }
 
 }

@@ -2,6 +2,7 @@
 .name
 {
     display: flex;
+    flex-direction: column;
 }
 .comment textarea
 {
@@ -12,4 +13,12 @@
 {
     display: flex;
     justify-content: flex-end;
+    
+}
+.btn .btn-1
+{
+    width: 120px;
+    height: 45px;
+    background: #A1C855;
+    border: 1px solid #fff;
 }

@@ -24,9 +24,9 @@
 }
 .comment-vote button
 {
-    border: 1px solid #2C3E50;
+    /*border: 1px solid #2C3E50;*/
     border-radius: 3px;
-    background: #3498DB;
+    background: #B5BFD5;
     box-shadow: none;
 }
 .comment-vote .comment-vote-1

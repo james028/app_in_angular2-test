@@ -12,7 +12,8 @@
                         <textarea class="comm2" formControlName="text" ></textarea>
                     </div>
                     <div class="btn">
-                        <button type="submit" class="btn-1" [disabled]="!Comm.valid">Skomentuj</button>
+                        <button type="submit" class="btn-1" [ngClass]="{ disabled: !Comm.valid }" 
+                        >Skomentuj</button>
                     </div>
                 </form>
             </div>

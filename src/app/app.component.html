@@ -2,13 +2,13 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <form [formGroup]="Comm" (ngSubmit)="onSubmit()" >
-                    <p class="add">Dodaj komentarz: </p>
+                    <p class="add">Dodaj komentarz</p>
                     <div class="name" [ngClass]="{'has-error':!Comm.controls['nick'].valid && Comm.controls['nick'].touched}">
-                        <p class="nick">Podaj nicka: </p>
+                        <p class="nick">Podaj swój nick: </p>
                         <input type="text" class="name-inp" formControlName="nick" >
                     </div>
                     <div class="comment" [ngClass]="{'has-error':!Comm.controls['text'].valid && Comm.controls['text'].touched}">
-                        <p class="comm">Komentarz</p>
+                        <p class="comm">Komentarz: </p>
                         <textarea class="comm2" formControlName="text" ></textarea>
                     </div>
                     <div class="btn">
